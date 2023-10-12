@@ -81,7 +81,7 @@ def get_merchant_details():
 
     # Create request and set merchantAuthentication
     request = apicontractsv1.getMerchantDetailsRequest()
-    request.merchantAuthentication = merchant_auth
+    # request.merchantAuthentication = merchant_auth
     
     # Create controller and execute the request
     controller = getMerchantDetailsController(request)
